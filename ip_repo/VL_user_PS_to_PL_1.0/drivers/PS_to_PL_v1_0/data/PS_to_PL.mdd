@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER PS_to_PL
+	OPTION supported_peripherals = (PS_to_PL);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = PS_to_PL;
+END DRIVER
