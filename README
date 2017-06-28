@@ -1,3 +1,12 @@
+This project is a design and implementation of an FPGA-based multi-effects system for the elctric guitar, on the Zedboard.
+It is designed to work with a guiatr input in the Line-in port, and an amplifier in the Line-out.
+
+The effects we created are: Distortion/OD, Octavolo (an experimental effect which combines Octaver and Tremolo),
+Tremolo, and Delay, where it's possible to activate each effect individually, 
+or concatenate several effects in series, to produce interesting combinations. 
+
+We also implemented a user interface, based on the Zedboard's buttons, switches and LEDs, for real-time user control of the effects.
+
 The ip_repo folder contains all of the packaged IPs - suitable for IP import.
 
 To run the project:
