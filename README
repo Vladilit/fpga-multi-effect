@@ -1,0 +1,11 @@
+The ip_repo folder contains all of the packaged IPs - suitable for IP import.
+
+To run the project:
+1. Extract both archives to a single folder named Meffects_constants_testing_3, which after the extarct shall include 7 folders and one .xpr file.
+2. Open the .xpr file from the Meffects_constants_testing_3 folder, it already includes a bitstream file.
+3. Set the IP repository folder to be ip_repo.
+4. Launch SDK
+5. Program FPGA (Blue LED on Zedboard should light up)
+6. Right-click on the Audio project -> Run as -> Launch On Hardware (GDB) - the leftmost red LED on Zedboard should light up.
+7. Connect an audio source to the Line-in port, and amplifier/speakers to the Line-out or Headphones outputs.
+8. Enjoy!
