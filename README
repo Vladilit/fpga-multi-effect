@@ -20,3 +20,5 @@ To run the project:
 6. Right-click on the Audio project -> Run as -> Launch On Hardware (GDB) - the leftmost red LED on Zedboard should light up.
 7. Connect an audio source to the Line-in port, and amplifier/speakers to the Line-out or Headphones outputs.
 8. Enjoy!
+
+Vladi & Adi
