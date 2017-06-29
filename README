@@ -1,3 +1,5 @@
+This is our senior-year project for B.Sc. in EE in Tel-Aviv University.
+
 This project is a design and implementation of an FPGA-based multi-effects system for the elctric guitar, on the Zedboard.
 It is designed to work with a guiatr input in the Line-in port, and an amplifier in the Line-out.
 
