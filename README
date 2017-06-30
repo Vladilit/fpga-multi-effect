@@ -13,12 +13,28 @@ The ip_repo folder contains all of the packaged IPs - suitable for IP import.
 
 To run the project:
 1. Extract both archives to a single folder named Meffects_constants_testing_3, which after the extarct shall include 7 folders and one .xpr file.
+
 2. Open the .xpr file from the Meffects_constants_testing_3 folder, it already includes a bitstream file.
+
 3. Set the IP repository folder to be ip_repo.
+
 4. Launch SDK
+
 5. Program FPGA (Blue LED on Zedboard should light up)
+
 6. Right-click on the Audio project -> Run as -> Launch On Hardware (GDB) - the leftmost red LED on Zedboard should light up.
+
 7. Connect an audio source to the Line-in port, and amplifier/speakers to the Line-out or Headphones outputs.
-8. Enjoy!
+
+8. Listen to the output, and use the slide-switches and buttons to change effects.
+The 4 leftmost switches of the Zedboard activate each of the 4 different effects.
+The 4 rightmost switches of the Zedboard choose the internal configuration of each effect.
+'1' means the switch is up, and '0' is down. 
+For example - 1000 + 1000 means the first effect switch is up (Distortion), and inside, the first configuration is chosen (Weak OD1).
+
+1000 (Distortion)   +    1000 (Weak OD1) / 0100 (Strong OD) / 0010 (Weak OD2) / 0001 (Harsh Distortion)
+0100 (Octavolo)    +    1000 (FIR, 1up) / 1100 (FIR2, 1up) / 1110 (FIR3, 1up) / 1111 (IIR3, 1up) / 0111 (IIR2, 1up) / 0011 (IIR1, 1up) / 0100 (FIR, 2up) / 0010 (FIR, 1down) / 0001 (FIR, robot)
+0010 (Tremolo)    +    1000 (1.6Hz) / 0100 (3.5Hz)  / 0010 (6.35Hz)  / 0001 (0.8Hz) 
+0001 (Delay)        +    1000 (IIR1) / 1100 (IIR2,short) / 1110 (IIR3, slight delay-reverb) / 0100 (IIR4, very long) / 0010 (FIR, single rep. long) 
 
 Vladi & Adi
