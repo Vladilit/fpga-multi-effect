@@ -1,5 +1,7 @@
 This is our senior-year project for B.Sc. in EE in Tel-Aviv University.
 
+A short video demo is available at: https://www.youtube.com/watch?v=ANxHyCAYGp0&f
+
 This project is a design and implementation of an FPGA-based multi-effects system for the elctric guitar, on the Zedboard.
 It is designed to work with a guiatr input in the Line-in port, and an amplifier in the Line-out.
 
@@ -10,6 +12,8 @@ or concatenate several effects in series, to produce interesting combinations.
 We also implemented a user interface, based on the Zedboard's buttons, switches and LEDs, for real-time user control of the effects.
 
 The ip_repo folder contains all of the packaged IPs - suitable for IP import.
+
+
 
 To run the project:
 1. Extract both archives to a single folder named Meffects_constants_testing_3, which after the extarct shall include 7 folders and one .xpr file.
