@@ -2,8 +2,8 @@ This is our senior-year project for B.Sc. in EE in Tel-Aviv University.
 
 A short video demo is available at: https://www.youtube.com/watch?v=ANxHyCAYGp0&f
 
-This project is a design and implementation of an FPGA-based multi-effects system for the elctric guitar, on the Zedboard.
-It is designed to work with a guiatr input in the Line-in port, and an amplifier in the Line-out.
+This project is a design and implementation of an FPGA-based multi-effects system for the electric guitar, on the Zedboard.
+It is designed to work with a guitar input in the Line-in port, and an amplifier in the Line-out.
 
 The effects we created are: Distortion/OD, Octavolo (an experimental effect which combines Octaver and Tremolo),
 Tremolo, and Delay, where it's possible to activate each effect individually, 
@@ -16,7 +16,7 @@ The ip_repo folder contains all of the packaged IPs - suitable for IP import.
 
 
 To run the project:
-1. Extract both archives to a single folder named Meffects_constants_testing_3, which after the extarct shall include 7 folders and one .xpr file.
+1. Extract both archives to a single folder named Meffects_constants_testing_3, which after the extract shall include 7 folders and one .xpr file.
 
 2. Open the .xpr file from the Meffects_constants_testing_3 folder, it already includes a bitstream file.
 
